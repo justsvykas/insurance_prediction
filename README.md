@@ -91,7 +91,7 @@ poe x
 
 Note that there is script to split the data into train, val and test sets to avoid data leakage. To create the splits run:
 ```bash
-python src/split_data.py
+python notebooks/split_data.py
 ```
 
 To initialize pre-commit hooks run:
@@ -123,8 +123,12 @@ uv_app/                # FastAPI service
 ├── __init__.py       # Package initialization
 └── full_pipeline.pkl # Saved model pipeline
 
-tests/               # Test files
+tests/               # Test files for local testing
 ├── test_api.py     # API tests
+└── __init__.py     # Test package initialization
+
+integration_tests/  # Test files for cloud testing
+├── test_api_cloud.py     # API tests
 └── __init__.py     # Test package initialization
 
 Dockerfile          # Container config
@@ -135,4 +139,5 @@ Exploratory_analysis.html  # EDA (HTML)
 .gitignore          # Git ignore
 .pre-commit-config.yaml # Pre-commit config
 README.md           # Documentation
+uv.lock             # Dependency lockfile
 ```
