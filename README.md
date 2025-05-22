@@ -70,7 +70,7 @@ then go to http://localhost:8000/docs to see the API documentation with example 
 
 # Deployed on cloud
 
-This model is deploed on Render. To see example of predictions go to https://insurance-prediction-nc3h.onrender.com/docs
+This model is deployed on Render. To see example of predictions go to https://insurance-prediction-nc3h.onrender.com/docs
 
 to test model in cloud run:
 ```bash
