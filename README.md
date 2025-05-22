@@ -72,9 +72,14 @@ then go to http://localhost:8000/docs to see the API documentation with example 
 
 This model is deploed on Render. To see example of predictions go to https://insurance-prediction-nc3h.onrender.com/docs
 
+to test model in cloud run:
+```bash
+poe integration_tests
+```
+
 # Optional commands
 
-To run tests, run:
+To run tests locally, run:
 ```bash
 poe tests
 ```

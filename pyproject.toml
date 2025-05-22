@@ -23,6 +23,7 @@ build-backend = "hatchling.build"
 
 [tool.poe.tasks]
 test = "uv run pytest tests"
+integration_tests = "uv run pytest integration_tests"
 lint = "uv run ruff check uv_app tests *.py --fix"
 format = "uv run ruff format uv_app tests *.py"
 isort = "uv run ruff check uv_app tests *.py --select I --fix-only"
