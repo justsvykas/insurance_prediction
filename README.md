@@ -68,7 +68,9 @@ docker run insurance-prediction
 then go to http://localhost:8000/docs to see the API documentation with example request for predict endpoint.
 
 
-!!! Include stuff about cloud deployment !!! 
+# Deployed on cloud
+
+This model is deploed on Render. To see example of predictions go to https://insurance-prediction-nc3h.onrender.com/docs
 
 # Optional commands
 
